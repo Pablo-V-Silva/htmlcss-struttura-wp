@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -16,7 +16,7 @@
 }
 
 .debug .foto, .article {
-    height: 400px;
+    height: 430px;
 }
 
 .debug footer {
@@ -24,12 +24,17 @@
 }
 
 .debug .title {
-    height: 20%;
+    height: 100px;
 }
 
 .debug .asx {
     height: 290px;
 }
+
+.debug .acx {
+    height: 290px;
+}
+
 /* /Debug */
 
 .margin {
@@ -68,10 +73,19 @@ footer {
 .title {
     width: 100%;
     background-color: #ABCFE7;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
+.asx, .acx {
+    float: left;
+}
 .asx {
     width: 20%;
     background-color: #ABCFE7;
 }
+
+.acx {
+    width: 60%;
+    background-color: #ABCFE7;
+}
+
