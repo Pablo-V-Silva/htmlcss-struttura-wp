@@ -3,3 +3,57 @@
     margin: 0;
     padding: 0;
 }
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Debug */
+.debug header {
+    height: 100px;
+}
+
+.debug .foto, .article {
+    height: 400px;
+}
+
+.debug footer {
+    height: 50px;
+}
+
+/* /Debug */
+
+.margin {
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    background-color: #E579E6;
+}
+
+header, .foto {
+    margin-bottom: 1rem;
+}
+
+main {
+    margin-bottom: 0.6rem;
+}
+
+.foto {
+    width: 100%;
+    background-color: #e1d67a;
+}
+
+.article {
+    width: 100%;
+    background-color: #0086FF;
+}
+
+footer {
+    width: 100%;
+    background-color: #8801FE;
+}
