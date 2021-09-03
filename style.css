@@ -27,11 +27,11 @@
     height: 100px;
 }
 
-.debug .asx {
+.debug .asm {
     height: 290px;
 }
 
-.debug .acx {
+.debug .axl {
     height: 290px;
 }
 
@@ -76,16 +76,17 @@ footer {
     margin-bottom: 1.2rem;
 }
 
-.asx, .acx {
+.asm, .axl {
     float: left;
 }
-.asx {
-    width: 20%;
+.asm {
+    width: 19%;
     background-color: #ABCFE7;
 }
 
-.acx {
+.axl {
     width: 60%;
     background-color: #ABCFE7;
+    margin-left: 1%;
+    margin-right: 1%;
 }
-
