@@ -16,16 +16,14 @@
     background-color: #E579E6;
 }
 
-.debug .foto, .article {
-    height: 430px;
-}
-
 .debug .foto {
     background-color: #e1d67a;
+    height: 430px;
 }
 
 .debug .article {
     background-color: #0086FF;
+    height: 430px;
 }
 
 .debug footer {
@@ -87,12 +85,12 @@ footer {
 .asm, .axl {
     float: left;
 }
+
 .asm {
     width: 19%;
 }
 
 .axl {
     width: 60%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 0 1%;
 }
