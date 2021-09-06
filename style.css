@@ -13,26 +13,39 @@
 /* Debug */
 .debug header {
     height: 100px;
+    background-color: #E579E6;
 }
 
 .debug .foto, .article {
     height: 430px;
 }
 
+.debug .foto {
+    background-color: #e1d67a;
+}
+
+.debug .article {
+    background-color: #0086FF;
+}
+
 .debug footer {
     height: 50px;
+    background-color: #8801FE;
 }
 
 .debug .title {
     height: 100px;
+    background-color: #ABCFE7;
 }
 
 .debug .asm {
     height: 290px;
+    background-color: #ABCFE7;
 }
 
 .debug .axl {
     height: 290px;
+    background-color: #ABCFE7;
 }
 
 /* /Debug */
@@ -44,7 +57,6 @@
 
 header {
     width: 100%;
-    background-color: #E579E6;
 }
 
 header, .foto {
@@ -57,22 +69,18 @@ main {
 
 .foto {
     width: 100%;
-    background-color: #e1d67a;
 }
 
 .article {
     width: 100%;
-    background-color: #0086FF;
 }
 
 footer {
     width: 100%;
-    background-color: #8801FE;
 }
 
 .title {
     width: 100%;
-    background-color: #ABCFE7;
     margin-bottom: 1.2rem;
 }
 
@@ -81,12 +89,10 @@ footer {
 }
 .asm {
     width: 19%;
-    background-color: #ABCFE7;
 }
 
 .axl {
     width: 60%;
-    background-color: #ABCFE7;
     margin-left: 1%;
     margin-right: 1%;
 }
